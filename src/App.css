@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+/* Nav Bar */
+.navbar {
+  background-color: #043a5a;
+  margin-bottom: 30px;
+}
+.navbar-brand {
+  color: #ffffff;
+}
+.button{
+  margin: 10px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.padtop {
+  padding-top: 40px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+th,span{
+  color: #043a5a;
+}
+/* Sign In Sign Up Forms */
+/* .login-form {
+  padding-top: 150px;
+}
+.btn-facebook {
+  color: #ffffff;
+  background-color: #3b5998;
+}
+.btn {
+}
+
+.buttons {
+  padding: 10px 0 10px 0;
+}
+
+.change-btn:hover {
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .btn-facebook {
+    margin-bottom: 5px;
   }
+} */
+/* Contact Detail Display */
+.list-group-item {
+  border: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn {
+  color: #ffffff;
+  background-color: #043a5a;
+}
+.btn:focus {
+  box-shadow: none !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control {
+  border: none !important;
+  border-bottom: 1px solid grey !important;
+  border-radius: 0;
+  padding: 0;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.form-heading {
+  color: #043a5a;
 }

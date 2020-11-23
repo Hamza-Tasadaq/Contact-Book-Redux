@@ -17,7 +17,7 @@ export default class Navbar extends Component {
               </div>
                         <ul className="nav justify-content-end">
                             <li className="nav-item">
-                                <Link to='/create-contact' type="button" className="btn navbar-brand">Create Contact</Link>
+                                <Link to='/create-contact' type="button" className="btn create-btn navbar-brand">Create Contact</Link>
                             </li>
                         </ul>
                     </div>

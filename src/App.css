@@ -24,36 +24,13 @@ a:hover {
 th,span{
   color: #043a5a;
 }
-/* Sign In Sign Up Forms */
-/* .login-form {
-  padding-top: 150px;
-}
-.btn-facebook {
-  color: #ffffff;
-  background-color: #3b5998;
-}
-.btn {
-}
-
-.buttons {
-  padding: 10px 0 10px 0;
-}
-
-.change-btn:hover {
-  text-decoration: none;
-}
-
-
-@media only screen and (max-width: 768px) {
-  .btn-facebook {
-    margin-bottom: 5px;
-  }
-} */
-/* Contact Detail Display */
 .list-group-item {
   border: none;
 }
-
+.create-btn{
+  background-color: #ffffff !important;
+  color: #043a5a !important;
+}
 .btn {
   color: #ffffff;
   background-color: #043a5a;
@@ -61,8 +38,6 @@ th,span{
 .btn:focus {
   box-shadow: none !important;
 }
-
-
 .form-control {
   border: none !important;
   border-bottom: 1px solid grey !important;
